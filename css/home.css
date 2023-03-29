@@ -1,0 +1,113 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2em;
+    padding: 1em 0;
+    font-size: 1.5em;
+}
+
+.home-cabecalho__link {
+    text-decoration: none;
+    color: var(--pre10o);
+    transition: all .10s;
+}
+
+.home-cabecalho__link:hover {
+    text-decoration: underline .2em;
+}
+
+.home-principal {
+    text-align: center;
+    margin-top: 10em;
+}
+
+.home-principal__titulo {
+    font-size: 4em;
+    font-weight: 400;
+}
+
+.home-principal__subtitulo {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.home-rodape {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.fa-solid, .fa-bars {
+    display: none;
+}
+
+.home-cabecalho-mobile {
+    display: none;
+}
+
+input {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    .home-cabecalho {
+        display: none;
+    }
+
+    .fa-solid, .fa-bars {
+        display: block;
+        font-size: 2.5em;
+        margin: .5em;
+        position: absolute;
+    } 
+
+    .home-cabecalho-mobile {
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+        text-align: center;
+        padding: 1em 0;
+        background-color: var(--preto-fosco);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        top: -500px;
+        position: relative;
+        transition: all .2s;
+    }
+
+    .home-cabecalho-mobile__link {
+        text-decoration: none;
+        color: var(--branco);
+        font-size: 1.5em;
+        transform: .3s;
+    }
+
+    input[type="checkbox"]:checked ~ .home-cabecalho-mobile {
+        transform: translateY(500px);
+    }
+
+    .sidebar-cancel {
+        position: absolute;
+        color: var(--branco);
+        top: 0;
+    }
+
+    .home-principal__titulo {
+        font-size: 2.5em;
+    }
+
+    .home-rodape__copyright {
+        font-size: .7em;
+    }
+
+}
