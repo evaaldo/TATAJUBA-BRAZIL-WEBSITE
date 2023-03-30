@@ -38,7 +38,7 @@
     font-weight: 400;
 }
 
-.home-rodape {
+.rodape {
     position: fixed;
     bottom: 20px;
     left: 50%;
@@ -54,12 +54,20 @@
     display: none;
 }
 
+label {
+    display: none;
+}
+
 input {
     display: none;
 }
 
 @media only screen and (max-width: 1024px) {
     
+    label {
+        display: block;
+    }
+
     .home-cabecalho {
         display: none;
     }
