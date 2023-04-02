@@ -1,0 +1,40 @@
+.contato__redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rede-social {
+    color: var(--preto);
+    font-size: 3em;
+}
+
+.contato-localizacao {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.contato-localizacao__titulo {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.contato-localizacao__img {
+    margin-top: 3em;
+}
+
+.contato-mensagem {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contato-mensagem__titulo {
+    font-size: 2.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 2em;
+}

@@ -33,10 +33,11 @@
 
 .sobre-tatajuba__texto {
     width: 40%;
-    margin: 0 auto 5em auto;
+    margin: 0 auto 2em auto;
 }
 
 .sobre-tatajuba__img {
+    margin-top: 2em;
     width: 30%;
 }
 
