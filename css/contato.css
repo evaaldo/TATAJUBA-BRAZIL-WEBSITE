@@ -12,6 +12,10 @@
 .contato-localizacao {
     text-align: center;
     margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .contato-localizacao__titulo {
