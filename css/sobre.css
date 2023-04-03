@@ -66,6 +66,10 @@
     font-size: 1.2em;
 }
 
+.sobre-copyright {
+    margin-bottom: 1em;
+}
+
 @media only screen and (max-width: 1024px) {
 
     .sobre-banner {
