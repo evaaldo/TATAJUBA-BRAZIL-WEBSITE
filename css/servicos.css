@@ -109,12 +109,19 @@
         display: none;
     }
 
+    .servicos__titulo {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
     .servicos-caixas {
         flex-direction: column;
     }
 
     .caixa {
-        width: 15em;
+        width: 12em;
+        height: 8em;
+        margin: 0 2em 0 2em;
     }
 
     .servico-produto-container {
