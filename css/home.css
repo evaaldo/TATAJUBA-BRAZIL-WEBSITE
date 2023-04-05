@@ -114,6 +114,10 @@ input {
         font-size: 2.5em;
     }
 
+    .home-principal__subtitulo {
+        font-size: 1em;
+    }
+
     .home-rodape__copyright {
         font-size: .7em;
     }
