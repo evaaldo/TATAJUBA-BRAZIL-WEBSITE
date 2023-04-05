@@ -18,6 +18,7 @@ html {
     --verde: #0f0;
     --azul: #00f;
     --preto-fosco: #241F1F;
+    --verde-claro: rgba(30, 255, 0, 0.26);
 }
 
 body {

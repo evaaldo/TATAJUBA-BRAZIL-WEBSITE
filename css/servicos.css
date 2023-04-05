@@ -1,0 +1,124 @@
+.servicos-banner__img {
+    width: 100vw;
+    height: 20em;
+    object-fit: cover;
+    top: 0;
+}
+
+.servicos-produtos {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.servicos__titulo {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-top: 1.5em;
+}
+
+.linha {
+    border-bottom: 1px solid var(--preto);
+    width: 20em;
+    margin: 1em auto 2em auto;
+}
+
+.servicos-caixas {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 4em;
+    margin-bottom: 3em;
+}
+
+.caixa {
+    text-align: center;
+    background-color: var(--preto-fosco);  
+    padding: 8em 3em;
+    color: var(--branco);
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-size: 1.7em;
+    margin-top: 1em;
+    transition: all .6s;
+}
+
+#caixa1 {
+    /* background-image: url(/img/editadas-2387.jpeg); */
+    object-fit: cover;
+}
+
+#caixa2 {
+    /* background-image: url(/img/editadas-2385.jpeg); */
+    object-fit: cover;
+}
+
+#caixa3 {
+    /* background-image: url(/img/editadas-2399.jpeg); */
+    object-fit: cover;
+}
+
+.servico-produto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--preto-fosco);
+    color: var(--branco);
+    padding: 4em 0 3em 0;
+}
+
+.servico-produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.servico-produto__titulo {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.servico-produto__texto {
+    text-align: center;
+    width: 60%;
+    height: 30%;
+    margin: 1em 0 1em 0;
+}
+
+.consulta {
+    font-weight: 600;
+    background-color: var(--verde-claro);
+    padding: .5em 1em;
+    border-radius: 10px;
+    color: var(--branco);
+}
+
+.fa-whatsapp {
+    font-size: 2em;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .servicos-banner__img {
+        display: none;
+    }
+
+    .servicos-caixas {
+        flex-direction: column;
+    }
+
+    .caixa {
+        width: 15em;
+    }
+
+    .servico-produto-container {
+        flex-direction: column;
+    }
+
+}
