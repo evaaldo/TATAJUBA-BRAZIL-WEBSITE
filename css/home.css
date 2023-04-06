@@ -20,6 +20,7 @@
     padding: 1em 0;
     font-size: 1.5em;
     background-color: rgb(0, 0, 0, .2);
+    font-weight: 500;
 }
 
 .home-cabecalho__link {
@@ -104,6 +105,7 @@ input {
         top: -500px;
         position: relative;
         transition: all .2s;
+        font-weight: 500;
     }
 
     .home-cabecalho-mobile__link {
@@ -111,6 +113,7 @@ input {
         color: var(--branco);
         font-size: 1.5em;
         transform: .3s;
+        font-weight: 500;
     }
 
     input[type="checkbox"]:checked ~ .home-cabecalho-mobile {
