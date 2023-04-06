@@ -1,3 +1,7 @@
+#sobre-cabecalho {
+    background-color: rgb(0, 0, 0, 0);
+}
+
 .sobre-banner {
     background-color: var(--preto-fosco);
     color: var(--branco);

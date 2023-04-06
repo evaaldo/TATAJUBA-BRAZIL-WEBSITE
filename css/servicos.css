@@ -1,6 +1,39 @@
+.body-servicos {
+    background-color: var(--servico-fundo);
+}
+
+#servicos-cabecalho {
+    background-color: var(--servico-fundo);
+}
+
+.servicos-banner {
+    text-align: center;
+    color: var(--branco);
+    background-color: var(--preto-fosco);
+    padding: 4em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+#linha-servicos {
+    border-bottom: 1px solid var(--branco);
+}
+
+.servicos-banner__titulo {
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.servicos-banner__subtitulo {
+    width: 40%;
+    text-transform: uppercase;
+}
+
 .servicos-banner__img {
     width: 100vw;
-    height: 20em;
+    height: 25em;
     object-fit: cover;
     top: 0;
 }
@@ -11,6 +44,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: var(--servico-fundo);
 }
 
 .servicos__titulo {
@@ -105,6 +139,18 @@
 
 @media only screen and (max-width: 1024px) {
 
+    .servicos-banner{
+        margin-bottom: 2em;
+    }
+
+    .servicos-banner__subtitulo {
+        display: none;
+    }
+
+    #linha-servicos {
+        display: none;
+    }
+
     .servicos-banner__img {
         display: none;
     }
@@ -126,6 +172,10 @@
 
     .servico-produto-container {
         flex-direction: column;
+    }
+
+    .servico-produto__titulo {
+        width: 80%;
     }
 
 }
