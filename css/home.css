@@ -20,13 +20,13 @@
     padding: 1em 0;
     font-size: 1.5em;
     background-color: rgb(0, 0, 0, .2);
-    font-weight: 500;
 }
 
 .home-cabecalho__link {
     text-decoration: none;
     color: var(--pre10o);
     transition: all .10s;
+    font-weight: 500;
 }
 
 .home-cabecalho__link:hover {
