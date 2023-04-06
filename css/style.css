@@ -15,10 +15,11 @@ html {
     --branco: #fff;
     --preto: #000;
     --vermelho: #f00;
-    --verde: #0f0;
+    --verde: rgb(0, 252, 34);
     --azul: #00f;
     --preto-fosco: #241F1F;
     --verde-claro: rgba(30, 255, 0, 0.26);
+    --fonte-home: #ffffff;
 }
 
 body {
