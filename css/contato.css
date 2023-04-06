@@ -1,3 +1,17 @@
+#contato-cabecalho {
+    background-color: var(--servico-fundo);
+}
+
+#contato-banner {
+    background-image: url(/img/editadas-2387.jpeg);
+    background-size: cover;
+    font-weight: 900;
+}
+
+.body-contato {
+    background-color: var(--servico-fundo);
+}
+
 .contato__redes-sociais {
     display: flex;
     justify-content: center;
