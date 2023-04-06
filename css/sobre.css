@@ -1,5 +1,9 @@
+.body-sobre {
+    background-color: var(--servico-fundo);
+}
+
 #sobre-cabecalho {
-    background-color: rgb(0, 0, 0, 0);
+    background-color: var(--servico-fundo);
 }
 
 .sobre-banner {
@@ -16,6 +20,34 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.sobre-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-banner__titulo {
+    text-transform: uppercase;
+}
+
+#linha-servicos {
+    border-bottom: 1px solid var(--branco);
+    margin-bottom: 1em;
+}
+
+#sobre-banner__praia {
+    background-image: url(/img/editadas-2388.jpeg);
+    background-size: cover;
+    font-weight: 900;
+}
+
+.sobre-banner__subtitulo {
+    width: 40%;
+    text-transform: uppercase;
+    font-size: .8em;
 }
 
 .sobre-tatajuba {
@@ -108,6 +140,11 @@
 
     .historia {
         margin: 0 auto 0 auto;
+    }
+
+    #sobre-banner__praia {
+        display: block;
+        margin-bottom: 1em;
     }
 
 }
