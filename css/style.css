@@ -15,12 +15,13 @@ html {
     --branco: #fff;
     --preto: #000;
     --vermelho: #f00;
-    --verde: rgb(71, 252, 0);
+    --verde: rgb(99, 204, 0);
     --azul: #00f;
     --preto-fosco: #241F1F;
     --verde-claro: rgba(30, 255, 0, 0.26);
     --fonte-home: #ffffff;
     --servico-fundo: #dcc9b8;
+    --verde-escuro: rgb(66, 177, 2);
 }
 
 body {
@@ -39,7 +40,7 @@ body {
 }
 
 .whatsapp-link:hover {
-    opacity: .7;
+    color: var(--verde-escuro);
 }
 
 .home-cabecalho-mobile {

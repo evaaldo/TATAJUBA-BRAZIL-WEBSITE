@@ -61,3 +61,69 @@
     width: 80%;
     margin-bottom: 2em;
 }
+
+.infos-rodape {
+    background-color: var(--preto-fosco);
+    padding: 2.5em 0 1.5em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .8em;
+}
+
+.infos-ropade-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .7em;
+}
+
+#infos-rodape-redes__icon {
+    color: var(--branco);
+    font-size: 2em;
+    transition: .4s;
+}
+
+#infos-rodape-redes__icon:hover {
+    opacity: .6;
+}
+
+.infos-rodape-itens {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.infos-rodape-link {
+    text-decoration: none;
+    color: var(--branco);
+    transition: .4s;
+}
+
+.infos-rodape-link:hover {
+    opacity: .6;
+}
+
+.infos-rodape-logo {
+    text-transform: uppercase;
+    opacity: .5;
+    color: var(--branco);
+}
+
+.infos-rodape__titulo {
+    color: var(--branco);
+    text-transform: uppercase;
+    opacity: .9;
+}
+
+#info-copyright {
+    color: var(--branco);
+    font-size: .7em;
+}
+
+#infos-rodape-servicos {
+    padding-top: 0;
+}
