@@ -85,3 +85,11 @@ body {
 .language:hover ul {
     display: block;
 }
+
+@media only screen and (max-width: 1024px) {
+
+    .language:active ul {
+        display: block;
+    }
+
+}
