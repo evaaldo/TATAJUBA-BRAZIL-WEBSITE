@@ -10,6 +10,7 @@ $(function() {
         $('.home-cabecalho-mobile').children().eq(2).text("SOBRE")
         $('.home-cabecalho-mobile').children().eq(3).text("CONTATO")
         $('.language-selected').text("pt-BR")
+        $('.language-mobile-selected').text("pt-BR")
 
         // corpo
         $('.home-principal__subtitulo').text("UM PARAÍSO SECRETO NO NORDESTE")
@@ -28,6 +29,7 @@ $(function() {
         $('.home-cabecalho-mobile').children().eq(2).text("ABOUT")
         $('.home-cabecalho-mobile').children().eq(3).text("CONTACT")
         $('.language-selected').text("en-US")
+        $('.language-mobile-selected').text("en-US")
 
         // corpo
         $('.home-principal__subtitulo').text("THE SECRET PARADISE")
@@ -46,6 +48,7 @@ $(function() {
         $('.home-cabecalho-mobile').children().eq(2).text("SOBRE")
         $('.home-cabecalho-mobile').children().eq(3).text("CONTACTO")
         $('.language-selected').text("es-ES")
+        $('.language-mobile-selected').text("es-ES")
 
         // corpo
         $('.home-principal__subtitulo').text("PARAISO SECRETO DEL NORESTE")
@@ -64,6 +67,7 @@ $(function() {
         $('.home-cabecalho-mobile').children().eq(2).text("À PROPOS DE NOUS")
         $('.home-cabecalho-mobile').children().eq(3).text("CONTACT")
         $('.language-selected').text("fr-FR")
+        $('.language-mobile-selected').text("fr-FR")
 
         // corpo
         $('.home-principal__subtitulo').text("UN PARADIS SECRET DU NORD-EST")

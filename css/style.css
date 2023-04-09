@@ -22,6 +22,7 @@ html {
     --fonte-home: #ffffff;
     --servico-fundo: #dcc9b8;
     --verde-escuro: rgb(66, 177, 2);
+    --branco-language: #f8f8f8;
 }
 
 body {
@@ -66,14 +67,15 @@ body {
     list-style: none;
     background-color: var(--branco);
     padding: .5em 1em;
-    border: 1px solid #f8f8f8;
+    border: 1px solid var(--branco-language);
     box-shadow: 0px 1px 10px rgba(0, 0, 0, .5);
     font-weight: 500;
     display: none;
+    border-radius: 10px;
 }
 
 .language ul li:hover {
-    background-color: #f8f8f8;
+    background-color: var(--branco-language);
 }
 
 .language ul li a {
@@ -86,10 +88,40 @@ body {
     display: block;
 }
 
+.language-mobile {
+    display: none;
+}   
+
 @media only screen and (max-width: 1024px) {
 
-    .language:active ul {
+    .language {
+        display: none;
+    }
+
+    .language-mobile {
         display: block;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        text-align: center;
+    }
+
+    .language-mobile-selected {
+        margin-bottom: .5em;
+    }
+
+    .language-mobile ul {
+        list-style: none;
+    }
+
+    .language-mobile ul li:hover {
+        background-color: var(--branco-language);
+        padding: .2em;
+    }
+
+    .language-mobile ul li a {
+        color: var(--preto-fosco);
+        text-decoration: none;
     }
 
 }
