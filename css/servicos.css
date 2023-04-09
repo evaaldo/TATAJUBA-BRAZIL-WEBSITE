@@ -85,6 +85,10 @@
     transition: all .6s;
 }
 
+.caixa:hover {
+    opacity: .8;
+}
+
 #caixa1 {
     background-image: url(/img/editadas-2387.jpeg);
     background-size: cover;
@@ -98,6 +102,17 @@
 #caixa3 {
     background-image: url(/img/editadas-2399.jpeg);
     background-size: cover;
+}
+
+.caixa__texto {
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 700;
+    transition: .5s;
+}
+
+.caixa__texto:hover {
+    opacity: .7;
 }
 
 .servico-produto-container {
