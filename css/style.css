@@ -102,12 +102,14 @@ body {
         display: block;
         position: absolute;
         top: 20px;
-        right: 40px;
+        right: 20px;
         text-align: center;
     }
 
     .language-mobile-selected {
-        margin-bottom: .5em;
+        background-color: var(--preto-fosco);
+        padding: .5em 1em;
+        border-radius: 30px;
     }
 
     .language-mobile ul {
