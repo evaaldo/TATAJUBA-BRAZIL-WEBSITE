@@ -101,9 +101,10 @@ body {
     .language-mobile {
         display: block;
         position: absolute;
-        top: 20px;
-        right: 20px;
+        top: 10px;
+        right: 10px;
         text-align: center;
+        font-weight: 500;
     }
 
     .language-mobile-selected {
