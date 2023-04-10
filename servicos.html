@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/contato.css">
     <script src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous" defer></script>
+    <script src="/js/servicos.js" defer></script>
 
 </head>
 <body class="body-servicos">
@@ -29,7 +30,30 @@
             <li><a class="home-cabecalho-mobile__link" href="/sobre.html">ABOUT</a></li>
             <li><a class="home-cabecalho-mobile__link" href="/contato.html">CONTACT</a></li>
             <label class="sidebar-cancel" for="sidebar"><i class="fa-solid fa-xmark"></i></label>
+            <div id="linha-home" class="linha"></div>
+            <ul>
+                <li><a class="br" href="#">Português</a></li>
+                <li><a class="en" href="#">English</a></li>
+                <li><a class="es" href="#">Español</a></li>
+                <li><a class="fr" href="#">Français</a></li>
+            </ul>
         </ul>
+        <div class="language">
+            <div id="language-selected" class="language-selected">
+                pt-BR
+            </div>
+            <ul>
+                <li><a class="br" href="#">Português</a></li>
+                <li><a class="en" href="#">English</a></li>
+                <li><a class="es" href="#">Español</a></li>
+                <li><a class="fr" href="#">Français</a></li>
+            </ul>
+        </div>
+        <div class="language-mobile">
+            <div class="language-mobile-selected">
+                <label for="sidebar">Language</label>
+            </div>
+        </div>
 
         <div class="servicos-banner">
             <!-- inserir uma imagem aqui e trocar o texto e o css abaixo -->
@@ -57,7 +81,7 @@
         <div class="servico-produto-container">
             <div class="servico-produto">
                 <h1 id="kitesurf-link" class="servico-produto__titulo">KITESURF</h1>
-                <p class="servico-produto__texto">
+                <p id="kitesurf-texto" class="servico-produto__texto">
                     I'm a paragraph. Click here to add your own text and edit me. It’s easy.
                     Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
                 </p>
@@ -65,7 +89,7 @@
             </div>
             <div class="servico-produto">
                 <h1 id="barraca-link" class="servico-produto__titulo">BARRACA DE PRAIA</h1>
-                <p class="servico-produto__texto">
+                <p id="barraca-texto" class="servico-produto__texto">
                     I'm a paragraph. Click here to add your own text and edit me. It’s easy.
                     Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
                 </p>
@@ -73,7 +97,7 @@
             </div>
             <div class="servico-produto">
                 <h1 id="chale-link" class="servico-produto__titulo">CHALÉS</h1>
-                <p class="servico-produto__texto">
+                <p id="chale-texto" class="servico-produto__texto">
                     I'm a paragraph. Click here to add your own text and edit me. It’s easy.
                     Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
                 </p>
@@ -105,6 +129,12 @@
             <i class="fa-brands fa-square-whatsapp"></i>
         </a>
     </div>
+
+    <script
+        src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+        crossorigin="anonymous">
+    </script>
 
 </body>
 </html>
