@@ -1,0 +1,127 @@
+/* Tudo referente a Home */
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.bars-sidebar {
+    cursor: pointer;
+}
+
+.fa-bars-staggered {
+    color: var(--branco);
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 3em;
+    transition: .3s ease;
+}
+
+.fa-bars-staggered:hover {
+    color: var(--laranja-fonte);
+}
+
+.chk-sidebar {
+    display: none;
+}
+
+.chk-sidebar:checked ~ .sidebar {
+    transform: translateX(350px);
+}
+
+.bg-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    z-index: -100;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.sidebar {
+    position: absolute;
+    left: -350px;
+    height: 100vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--branco);
+    transition: .3s ease-out;
+}
+
+.sidebar h1 {
+    margin: 2em;
+    font-size: 2em;
+}
+
+.sidebar-lista {
+    font-size: 1.5em;
+    margin-left: 3em;
+    list-style: none;
+}
+
+.sidebar-link {
+    text-decoration: none;
+    color: var(--preto);
+    transition: .3s ease;
+}
+
+.sidebar-link:hover {
+    opacity: .6;
+}
+
+.close-sidebar {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    font-size: 2em;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.close-sidebar:hover {
+    color: var(--laranja-fonte);
+}
+
+/* Tudo referente ao Sobre */
+
+.sobre {
+    height: 100vh;
+    width: 100vw;
+    color: var(--azul-fonte);
+    margin: 0;
+    padding: 0;
+    background-color: var(--bege-fundo);
+    object-fit: cover;
+    background-size: cover;
+}
+
+.sobre-texto {
+    padding: 4em 8em;
+}
+
+.sobre-texto h1 {
+    font-size: 2em;
+    width: 70%;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.sobre-texto h2 {
+    width: 60%;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.sobre strong {
+    color: var(--laranja-fonte);
+}
