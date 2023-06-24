@@ -106,7 +106,7 @@
 }
 
 .sobre-texto {
-    padding: 4em 8em;
+    padding: 12em 8em;
 }
 
 .sobre-texto h1 {
@@ -124,4 +124,13 @@
 
 .sobre strong {
     color: var(--laranja-fonte);
+}
+
+.sobre-2 {
+    background-color: var(--azul-fundo);
+    color: var(--branco);
+}
+
+.sobre-2 h1 {
+    color: var(--azul-fonte-sobre);
 }
