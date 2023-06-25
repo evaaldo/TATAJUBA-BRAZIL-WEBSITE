@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="/css/style.css">
 
     <script src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous" defer></script>
+    <script 
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer>
+    </script>
+    <script src="/js/contato.js" defer></script>
 </head>
 <body>
     <!-- seção com o video de fundo e botão da sidebar -->
@@ -64,6 +69,16 @@
                 <h2>O Tatajuba Brazil foi inteiramente projetado por Alanna Dourado, nossa fundadora com a missão de divulgar <strong>Tatajuba</strong> para o mundo.</h2>
             </div>
         </div>
+    </section>
+
+    <section class="sobre contato">
+        <form id="form">
+            <input type="text" placeholder="Nome" id="nome">
+            <input type="tel" placeholder="Telefone" id="telefone">
+            <input type="email" placeholder="E-mail" id="email">
+            <textarea name="" id="" cols="30" rows="10" id="mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 </body>
 </html>
