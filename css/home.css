@@ -68,7 +68,8 @@
     width: 350px;
     display: flex;
     flex-direction: column;
-    background-color: var(--branco);
+    background-color: var(--azul-fundo);
+    color: var(--bege-fundo);
     transition: .3s ease-out;
 }
 
@@ -85,7 +86,7 @@
 
 .sidebar-link {
     text-decoration: none;
-    color: var(--preto);
+    color: var(--azul-fonte-sobre);
     transition: .3s ease;
 }
 
@@ -198,4 +199,74 @@
 
 .criador h2 {
     font-size: 1.25em;
+}
+
+/* Contato */
+
+.contato {
+    background-color: var(--azul-fonte-sobre);
+    display: flex;
+    padding: 10em 0 0 10em;
+    gap: 10em;
+}
+
+.contato h1 {
+    font-size: 2em;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: .75em;
+}
+
+#contact-form input, #contact-form textarea {
+    border: none;
+    border-bottom: 1px solid var(--azul-fonte);
+    background-color: transparent;
+}
+
+#contact-form input[type='submit'] {
+    border: none;
+    background-color: var(--laranja-fonte);
+    color: var(--branco);
+    padding: .5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+#contact-form input[type='submit']:hover {
+    background-color: var(--azul-fonte);
+}
+
+.informacoes h1 {
+    padding-bottom: 1em;
+}
+
+.informacoes ul {
+    list-style: none;
+    font-size: 1.5em;
+}
+
+.informacoes a {
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s ease;
+    color: var(--azul-fonte);
+}
+
+.informacoes a:hover {
+    color: var(--preto);
+}
+
+.redes-sociais {
+    padding-top: .5em;
+    font-size: 2em;
+}
+
+.redes-sociais {
+    cursor: pointer;
 }

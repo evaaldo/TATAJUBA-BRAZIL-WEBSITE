@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="/css/style.css">
 
+    <script src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
@@ -37,6 +38,9 @@
                 <i class="fa-solid fa-xmark"></i>
             </label>
         </nav>
+
+        <!-- <iframe class="bg-video" width="100vw" height="100vh" src="https://www.youtube.com/embed/fUbHqKRgyi8?controls=0?autoplay=1&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+
 
         <video autoplay loop poster="/img/videoPoster.png" class="bg-video">
             <source src="/video/O verdadeiro paraíso dos ventos.mp4" type="video/mp4">
@@ -74,14 +78,27 @@
 
     <section class="sobre contato" id="contato">
         <form id="contact-form">    
-            <label>Nome</label>
-            <input type="text" name="nome" id="nome">
-            <label>Email</label>
-            <input type="email" name="email" id="email">
-            <label>Mensagem</label>
-            <textarea name="mensagem" id="mensagem"></textarea>
+            <h1>Contate-nos</h1>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
             <input type="submit" value="Enviar">
         </form>
+        <div class="informacoes">
+            <h1>Volte a navegar</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="redes-sociais">
+                <a href="https://www.instagram.com/tatajubabrazil/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
     </section>
 </body>
 </html>
