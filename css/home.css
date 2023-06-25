@@ -1,5 +1,19 @@
 /* Tudo referente a Home */
 
+.fa-square-whatsapp {
+    color: var(--verde-whatsapp);
+    font-size: 3em;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.fa-square-whatsapp:hover {
+    color: var(--laranja-fonte);
+}
+
 .home {
     width: 100vw;
     height: 100vh;
@@ -97,6 +111,8 @@
 .sobre {
     height: 100vh;
     width: 100vw;
+    max-width: 100vw;
+    max-height: 100vh;
     color: var(--azul-fonte);
     margin: 0;
     padding: 0;
@@ -133,4 +149,53 @@
 
 .sobre-2 h1 {
     color: var(--azul-fonte-sobre);
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-image: url(/img/praiaPoster.jpeg);
+    object-fit: cover;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+    font-size: 5em;
+}
+
+/* Criador */
+
+.sobre-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    max-height: 70vh;
+}
+
+.criador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 4em;
+    width: 50%;
+}
+
+.criador img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.criador h1 {
+    font-size: 2em;
+}
+
+.criador h2 {
+    font-size: 1.25em;
 }
