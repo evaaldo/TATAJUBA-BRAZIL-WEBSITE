@@ -7,12 +7,13 @@
 
     <link rel="stylesheet" href="/css/style.css">
 
-    <script src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous" defer></script>
-    <script 
-        type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('va93XjSM1fx9ouV8d');
+        })();
     </script>
-    <script src="/js/contato.js" defer></script>
+    <script src="/js/index.js" defer></script>
 </head>
 <body>
     <!-- seção com o video de fundo e botão da sidebar -->
@@ -71,13 +72,15 @@
         </div>
     </section>
 
-    <section class="sobre contato">
-        <form id="form">
-            <input type="text" placeholder="Nome" id="nome">
-            <input type="tel" placeholder="Telefone" id="telefone">
-            <input type="email" placeholder="E-mail" id="email">
-            <textarea name="" id="" cols="30" rows="10" id="mensagem"></textarea>
-            <button type="submit">Enviar</button>
+    <section class="sobre contato" id="contato">
+        <form id="contact-form">    
+            <label>Nome</label>
+            <input type="text" name="nome" id="nome">
+            <label>Email</label>
+            <input type="email" name="email" id="email">
+            <label>Mensagem</label>
+            <textarea name="mensagem" id="mensagem"></textarea>
+            <input type="submit" value="Enviar">
         </form>
     </section>
 </body>
