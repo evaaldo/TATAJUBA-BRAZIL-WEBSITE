@@ -1,7 +1,6 @@
 /* Tudo referente a Home */
 
 .fa-square-whatsapp {
-    color: var(--verde-whatsapp);
     font-size: 3em;
     position: fixed;
     right: 15px;
@@ -11,7 +10,7 @@
 }
 
 .fa-square-whatsapp:hover {
-    color: var(--laranja-fonte);
+    color: var(--verde-whatsapp);
 }
 
 .home {
@@ -50,8 +49,8 @@
 
 .bg-video {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    top: 0;
+    left: 0;
     min-width: 100vw;
     min-height: 100vh;
     width: 100vw;
@@ -59,6 +58,8 @@
     z-index: -100;
     background-size: cover;
     object-fit: cover;
+    padding: 0;
+    margin: 0;
 }
 
 .sidebar {
@@ -175,8 +176,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
-    max-height: 70vh;
+    flex-direction: column;
+    height: 125vh;
+    max-height: 125vh;
+    gap: 2em;
+}
+
+.casas {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.casas h1 {
+    font-size: 4em;
+}
+
+.casas h2 {
+    font-size: 1.25em;
+    text-align: justify;
+    width: 90%;
+}
+
+.casas a {
+    text-decoration: none;
+    color: var(--preto);
+    padding: .5em 1em;
+    border: 1px solid var(--preto);
+    border-radius: 50px;
+    width: 15%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.casas a:hover {
+    color: var(--azul-fonte-sobre);
+    border-color: var(--azul-fonte-sobre);
 }
 
 .criador {
@@ -199,6 +237,144 @@
 
 .criador h2 {
     font-size: 1.25em;
+}
+
+/* Swiper */
+
+.swiper {
+    border-top: 5px solid var(--preto);
+    border-bottom: 5px solid var(--preto);
+}
+
+.swiper-slide img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+    z-index: -100;
+}
+
+.swiper-button-next,
+    .swiper-button-prev {
+      width: 20px;
+      height: 20px;
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+      font-size: 20px;
+    }
+
+/* Experiências e comodidades */
+
+.sobre-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2em;
+    padding: 10em 0 0 10em;
+}
+
+.sobre-4 h1 {
+    font-size: 4em;
+}
+
+.sobre-4 h2 {
+    width: 60%;
+    text-align: justify;
+    font-size: 1.25em;
+}
+
+.sobre-4 a {
+    text-decoration: none;
+    color: var(--preto);
+    padding: .5em 1em;
+    border: 1px solid var(--preto);
+    border-radius: 50px;
+    width: 15%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.sobre-4 a:hover {
+    color: var(--azul-fonte-sobre);
+    border-color: var(--azul-fonte-sobre);
+}
+
+/* Video 2 */
+
+.bg-video-2 {
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    z-index: -100;
+    background-size: cover;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+}
+
+/* Localização */
+
+.sobre-5 {
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2em;
+    background-color: var(--branco);
+}
+
+.sobre-5 div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 40%;
+}
+
+.sobre-5 h1 {
+    font-size: 4em;
+}
+
+.sobre-5 h2 {
+    text-align: justify;
+    font-size: 1.25em;
+}
+
+.sobre-5 a {
+    text-decoration: none;
+    color: var(--preto);
+    padding: .5em 1em;
+    border: 1px solid var(--preto);
+    border-radius: 50px;
+    width: 40%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.sobre-5 a:hover {
+    color: var(--azul-fonte-sobre);
+    border-color: var(--azul-fonte-sobre);
+}
+
+.sobre-5 img {
+    width: 300px;
+    border-radius: 25px;
+}
+
+/* Imagem de transição */
+
+.sobre-6 {
+    background-image: url(/img/kiteSurf.jpeg);
+    background-size: cover;
+    object-fit: cover;
 }
 
 /* Contato */
