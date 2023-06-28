@@ -75,14 +75,17 @@
 }
 
 .sidebar h1 {
-    margin: 2em;
-    font-size: 2em;
+    margin: 2em 2em 1em 2em;
+    font-size: 1.5em;
 }
 
 .sidebar-lista {
     font-size: 1.5em;
     margin-left: 3em;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .15em;
 }
 
 .sidebar-link {
@@ -425,6 +428,9 @@
 .informacoes ul {
     list-style: none;
     font-size: 1.5em;
+    display: flex;
+    gap: 2em;
+    margin: 1em 0 1em 0;
 }
 
 .informacoes a {
