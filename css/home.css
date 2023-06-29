@@ -531,6 +531,7 @@
     border: none;
     border-bottom: 1px solid var(--azul-fonte);
     background-color: transparent;
+    font-size: 1.5em;
 }
 
 #contact-form input[type='submit'] {
