@@ -60,6 +60,7 @@
     object-fit: cover;
     padding: 0;
     margin: 0;
+    pointer-events: none;
 }
 
 .sidebar {
@@ -111,6 +112,35 @@
     color: var(--laranja-fonte);
 }
 
+.bg-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .bg-mobile {
+        display: block;
+    }
+
+    .bg-desktop {
+        display: none;
+    }
+
+    .sidebar {
+        font-size: 1.5em;
+    }
+
+    .sidebar h1 {
+        font-size: 1.2em;
+    }
+
+    .close-sidebar {
+        top: 10px;
+        right: 15px;
+    }
+
+}
+
 /* Tudo referente ao Sobre */
 
 .sobre {
@@ -154,6 +184,28 @@
 
 .sobre-2 h1 {
     color: var(--azul-fonte-sobre);
+}
+
+@media screen and (max-width: 1024px) {
+
+    .sobre-texto {
+        padding: 2em 2em 0 2em;
+        text-align: center;
+        text-align: start;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sobre-texto h1 {
+        width: 90%;
+        font-size: 2.5em;
+    }
+
+    .sobre-texto h2 {
+        width: 90%;
+    }
+
 }
 
 /* Banner */
@@ -240,6 +292,33 @@
 
 .criador h2 {
     font-size: 1.25em;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .sobre-3 {
+        max-height: 150vh;
+        height: 150vh;
+    }
+
+    .criador {
+        gap: 2em;
+        width: 80%;
+    }
+
+    .criador h1 {
+        text-align: center;
+        margin-bottom: .5em;
+    }
+
+    .casas a {
+        width: 100%;
+    }
+
+    .criador {
+        flex-direction: column;
+    }
+
 }
 
 /* Swiper */
