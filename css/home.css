@@ -70,7 +70,7 @@
     width: 350px;
     display: flex;
     flex-direction: column;
-    background-color: var(--azul-fundo);
+    background-color: var(--creme);
     color: var(--bege-fundo);
     transition: .3s ease-out;
 }
@@ -78,6 +78,7 @@
 .sidebar h1 {
     margin: 2em 2em 1em 2em;
     font-size: 1.5em;
+    color: var(--azul-fonte);
 }
 
 .sidebar-lista {
@@ -91,7 +92,7 @@
 
 .sidebar-link {
     text-decoration: none;
-    color: var(--azul-fonte-sobre);
+    color: var(--preto-fosco);
     transition: .3s ease;
 }
 
@@ -106,6 +107,7 @@
     font-size: 2em;
     cursor: pointer;
     transition: .3s ease;
+    color: var(--preto-fosco);
 }
 
 .close-sidebar:hover {
