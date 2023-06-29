@@ -386,6 +386,26 @@
     border-color: var(--azul-fonte-sobre);
 }
 
+@media screen and (max-width: 1024px) {
+
+    .sobre-4 {
+        padding: 0;
+        align-items: center;
+        text-align: center;
+        gap: 2em;
+    }
+
+    .sobre-4 h1 {
+        font-size: 3em;
+        padding-top: 1em;
+    }
+
+    .sobre-4 a {
+        width: 75%;
+    }
+
+}
+
 /* Video 2 */
 
 .bg-video-2 {
@@ -449,6 +469,31 @@
 .sobre-5 img {
     width: 300px;
     border-radius: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .sobre-5 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-5 div {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .sobre-5 a {
+        width: 100%;
+    }
+
+    .sobre-5 img {
+        margin-top: 2em;
+    }
+
 }
 
 /* Imagem de transição */
@@ -530,4 +575,34 @@
 
 .redes-sociais {
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .contato {
+        background-color: var(--azul-fonte-sobre);
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 5em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contact-form input, #contact-form textarea {
+        font-size: 1.5em;
+    }
+
+    #contact-form input[type='submit'] {
+        font-size: 1.75em;
+    }
+
+    .contato h1 {
+        font-size: 2.5em;
+    }
+
+    .redes-sociais {
+        font-size: 3em;
+    }
+
 }
