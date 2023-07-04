@@ -129,7 +129,7 @@
     }
 
     .sidebar {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .sidebar h1 {
@@ -606,6 +606,16 @@
 
     .redes-sociais {
         font-size: 3em;
+    }
+
+}
+
+/* Para todas as telas */
+
+@media screen and (max-wirdth: 550px) {
+    
+    .sobre-texto h1 {
+        font-size: 1em;
     }
 
 }
