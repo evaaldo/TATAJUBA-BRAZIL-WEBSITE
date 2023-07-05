@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatajuba Brazil - Casas</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/casa.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <script src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('va93XjSM1fx9ouV8d');
+        })();
+    </script>
+    <script src="/js/contato.js" defer></script>
+    <script src="/js/slider.js" defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/slider.js" defer></script>
+</head>
+<body>
+    <section class="home regiao" id="regiao">
+        <i class="fa-brands fa-square-whatsapp"></i>
+
+        <label for="chk-sidebar" class="bars-sidebar">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </label>
+        <input type="checkbox" name="chk-sidebar" id="chk-sidebar" class="chk-sidebar">
+
+        <nav class="sidebar">
+            <h1>Navegue pelo site</h1>
+            <ul class="sidebar-lista">
+                <li class="sidebar-item"><a class="sidebar-link" href="#casas">Região</a></li>
+                <li class="sidebar-item"><a class="sidebar-link" href="#contato">Contato</a></li>
+            </ul>
+            <h1>Saiba mais</h1>
+            <ul class="sidebar-lista">
+                <li class="sidebar-item"><a class="sidebar-link" href="/index.html">Home</a></li>
+                <li class="sidebar-item"><a class="sidebar-link" href="/casas.html">Casas</a></li>
+            </ul>
+            <label for="chk-sidebar" class="close-sidebar">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+        </nav>        
+    </section>
+
+    <section class="" id="">
+        
+    </section>
+
+    <section class="sobre contato" id="contato">
+        <form id="contact-form">    
+            <h1>Contate-nos</h1>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <div class="informacoes">
+            <h1>Volte a navegar</h1>
+            <ul>
+                <div>
+                    <li><a href="#casa">Início</a></li>
+                    <li><a href="#casas">Casas</a></li>
+                </div>
+                <div>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#">Região</a></li>
+                </div>
+            </ul>
+            <div class="redes-sociais">
+                <a href="https://www.instagram.com/tatajubabrazil/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

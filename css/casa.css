@@ -1,5 +1,10 @@
 .casa {
-    background-image: url(../img/praiaPoster.jpeg);
+    background-image: url(/img/Casas\ -\ Tatajuba.svg);
+    background-size: cover;
+}
+
+.regiao {
+    background-image: url(/img/Região\ -\ Tatajuba.svg);
     background-size: cover;
 }
 
