@@ -14,7 +14,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
-    <section class="home casa">
+    <section class="home casa" id="casa">
         <i class="fa-brands fa-square-whatsapp"></i>
 
         <label for="chk-sidebar" class="bars-sidebar">
@@ -25,26 +25,96 @@
         <nav class="sidebar">
             <h1>Navegue pelo site</h1>
             <ul class="sidebar-lista">
-                <li class="sidebar-item"><a class="sidebar-link" href="#home">Home</a></li>
-                <li class="sidebar-item"><a class="sidebar-link" href="#sobre">Sobre</a></li>
-                <li class="sidebar-item"><a class="sidebar-link" href="#fundadora">Fundadora</a></li>
-                <li class="sidebar-item"><a class="sidebar-link" href="#experiencias">Experiências</a></li>
-                <li class="sidebar-item"><a class="sidebar-link" href="#localizacao">Localização</a></li>
+                <li class="sidebar-item"><a class="sidebar-link" href="#casas">Casas</a></li>
                 <li class="sidebar-item"><a class="sidebar-link" href="#contato">Contato</a></li>
             </ul>
             <h1>Saiba mais</h1>
             <ul class="sidebar-lista">
                 <li class="sidebar-item"><a class="sidebar-link" href="/index.html">Home</a></li>
-                <li class="sidebar-item"><a class="sidebar-link" href="/casas.html">Casas</a></li>
                 <li class="sidebar-item"><a class="sidebar-link" href="#">Região</a></li>
             </ul>
             <label for="chk-sidebar" class="close-sidebar">
                 <i class="fa-solid fa-xmark"></i>
             </label>
-        </nav>
+        </nav>        
+    </section>
 
+    <section class="projetos" id="casas">
+        <h3>Prezamos por uma arquitetura que mergulha e celebra as raízes locais com sensibilidade e consciência socioambiental. São 17 projetos exclusivos de casas concebidos pela OPY Arquitetura, que variam de 150 a 600m2 de área coberta.</h3>
+        <h1>Conheça <strong>os projetos</strong></h1>
+        <ul>
+            <li><a href="#">Casa 1</a></li>
+            <li><a href="#">Casa 2</a></li>
+            <li><a href="#">Casa 3</a></li>
+        </ul>
+        <div class="cards">
+            <div class="card">
+                <h2>Praia | 5 suítes</h2>
+                <img src="/img/praiaPoster.jpeg" width="400px" alt="">
+                <div class="card-info">
+                    <p>Área Total 1000m²</p>
+                    <p>Área Fechada 800m²</p>
+                    <p>Área Aberta 200m²</p>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Praia | 5 suítes</h2>
+                <img src="/img/praiaPoster.jpeg" width="400px" alt="">
+                <div class="card-info">
+                    <p>Área Total 1000m²</p>
+                    <p>Área Fechada 800m²</p>
+                    <p>Área Aberta 200m²</p>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Praia | 5 suítes</h2>
+                <img src="/img/praiaPoster.jpeg" width="400px" alt="">
+                <div class="card-info">
+                    <p>Área Total 1000m²</p>
+                    <p>Área Fechada 800m²</p>
+                    <p>Área Aberta 200m²</p>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Praia | 5 suítes</h2>
+                <img src="/img/praiaPoster.jpeg" width="400px" alt="">
+                <div class="card-info">
+                    <p>Área Total 1000m²</p>
+                    <p>Área Fechada 800m²</p>
+                    <p>Área Aberta 200m²</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        
+    <section class="sobre contato" id="contato">
+        <form id="contact-form">    
+            <h1>Contate-nos</h1>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <div class="informacoes">
+            <h1>Volte a navegar</h1>
+            <ul>
+                <div>
+                    <li><a href="#casa">Início</a></li>
+                    <li><a href="#casas">Casas</a></li>
+                </div>
+                <div>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#">Região</a></li>
+                </div>
+            </ul>
+            <div class="redes-sociais">
+                <a href="https://www.instagram.com/tatajubabrazil/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
     </section>
 </body>
 </html>
